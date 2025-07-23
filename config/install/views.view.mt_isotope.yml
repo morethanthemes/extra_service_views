@@ -4,7 +4,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.mt_teaser_tile
     - field.storage.node.field_mt_srv_tags
-    - image.style.mt_large
     - node.type.mt_service
   module:
     - image
@@ -345,7 +344,7 @@ display:
           type: image
           settings:
             image_link: ""
-            image_style: mt_large
+            image_style: 16_9_1312x738_focal_point_webp
             image_loading:
               attribute: lazy
           group_column: ""
