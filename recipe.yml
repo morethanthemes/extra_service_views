@@ -1,0 +1,14 @@
+name: "Extra Service Views"
+type: "Views"
+description: Adds extra views for Service content type.
+recipes:
+  - extra_service
+install:
+  - image
+  - node
+  - text
+  - user
+  - views
+  - views_infinite_scroll
+config:
+  strict: false

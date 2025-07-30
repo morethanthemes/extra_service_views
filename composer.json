@@ -1,0 +1,11 @@
+{
+    "name": "morethanthemes/extra_service_views",
+    "description": "Adds extra views for Service content type.",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/core": ">=10.4 || ^11",
+        "drupal/views_infinite_scroll": "^2.0",
+        "morethanthemes/extra_service": "^1.0"
+    },
+    "version": "1.0.0"
+}
